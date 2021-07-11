@@ -1,0 +1,172 @@
+/* styles.css */
+
+ /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+/*@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}*/
+
+body	{
+	font-family: "Lato", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0;
+	margin-top: ;
+	margin-bottom: auto;
+	font-size: 90%;
+	background-color: grey;
+}
+
+/* base divs/spans */
+
+#wrapper	{
+	background-color: ;
+	position: relative;
+	height: auto;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*#header	{
+	position: relative;
+	height: 310px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-family: "Lato", sans-serif;
+	background-color: #003366;
+}*/
+
+#footer	{
+	width: auto;
+	left: 0;
+	right: 0;
+	margin-top: 100%;
+	text-align: center;
+	background-color: #003366;
+	color: #FFFFFF;
+	position: absolute;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+}
+
+/* index page divs/spans */
+
+.headertext	{
+	float: left;
+	position: absolute;
+	width: auto;
+	height: auto;
+	text-align: ;
+	padding-top: 130px;
+	color: #FFFFFF;
+	padding-left: 45%;
+	font-size: 250%;
+}
+
+.htext2	{
+	font-size: 60%;
+}
+
+/* Section intro for index */
+#intro	{
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+}
+
+#indexmain	{
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+}
+
+#indexleft	{
+	width: 50%;
+	font-family: "Lato", sans-serif;
+	padding-left: 10%;
+	padding-right: 7%;
+	text-align: justify;
+	background-color: #FFFFFF;
+	float: left;
+	height: auto;
+}
+
+#indexright	{
+	padding-left: 4%;
+	width: 29%;
+	height: auto;
+	border: ;
+	float: right;
+	background-color: #add8e6;
+}
+
+
+
+/* image related divs and spans */
+
+.logo	{
+	float: left;
+	position: absolute;
+	width: 5%;
+	padding-top: 125px;
+	padding-left: 38%;
+	color: #FFFFFF;
+}
+
+.parallax {
+	background-image: url("../images/shanghai.png");
+	height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+/* nav bar in all its glory */
+
+#navbar	{
+	background-color: #b0b9f5;
+	height: 35px;
+	font-size: 15px;
+	margin-right: 1%;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+ul.navitems	{
+	list-style-type: none;
+	margin-top: 7.5px;
+	padding: 0;
+	float: right;
+}
+
+li.navlist	{
+	display: inline;
+	padding-left: 15px;
+}
+
+/* Hyperlink related items */
+
+a	{
+	text-decoration: none;
+	border: ;
+	outline: 0;
+	color: #000000;
+}
+
+a:hover	{
+	color: #003366;
+}
+
+a:visited	{
+	
+}
+
+/* Resizing opotions */
